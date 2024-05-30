@@ -1,0 +1,166 @@
+/*fonts links*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+/*common css start*/
+body{
+	margin: 0;
+	font-family: "Playfair Display", serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #626262;
+}
+/*common css start*/
+/*header star*/
+header{
+	padding: 30px 0;
+}
+.container{
+	margin: 0 auto;
+	width: 90%;
+	overflow: hidden;
+
+}
+.logo{
+	margin-top: 10px;
+	width: 10%;
+	float: left;
+}
+.logo a{}
+.logo a img{
+	width: 100%;
+}
+.menu{
+	width: 65%;
+	float: right;
+}
+.menu ul{
+	float: right;
+	list-style: none;
+}
+.menu ul li{
+	float: left;
+}
+.menu ul li a{
+	display: inline-block;
+	margin: 0 50px;
+	color: #626262;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-bottom: 1px solid transparent;
+	transition: .33s linear;
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+.menu ul li a:hover{
+	border-bottom: 1px solid #626262;
+}
+/*header end*/
+/*banner start*/
+.banner{}
+.b_image{}
+.b_image img{
+	width:100%;
+}
+/*banner end*/
+/*gateway start*/
+.gateway{
+	padding: 100px 0;
+}
+.container2{
+	margin: 0 auto;
+	width: 80%;
+}
+.g_content{}
+.light{
+	font-family: "Ubuntu", sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+.title{
+	margin: 20px 0 30px;
+	font-size: 30px;
+	font-weight: 400;
+}
+.text{
+	margin: 0;
+	line-height: 24px;
+}
+.g_link{
+	margin-top: 50px;
+	display: inline-block;
+	color: #626262;
+	text-decoration: none;
+}
+/*gateway end*/
+/*blog start*/
+.blog{
+	padding: 0 0 100px;
+}
+.b_content{
+	overflow: hidden;
+}
+.blog_single{
+	float: left;
+	width: 47%;
+	box-sizing: border-box;
+}
+.blog_single:nth-child(odd){
+	margin-right: 6%;
+}
+.blog_image{
+	margin-bottom: 20px;
+}
+.blog_image img{
+	width: 100%;
+}
+/*blog end*/
+
+/*news start*/
+.news{
+	background-color: #f0f0f0;
+	padding: 70px 0;
+}
+.signup{
+	text-align: center;
+}
+.s_h1{
+	color: #333333;
+	margin-top: 0;
+	margin-bottom: 70px;
+}
+.s_form{
+	width:400px;
+	margin: 0 auto;
+	position: relative;
+}
+.s_form input{
+	width: 345px;
+	height: 45px;
+	font-family: "Playfair Display", serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #626262;
+	border: none;
+	border-bottom: 1px solid #626262;
+	background: transparent ;
+	padding-left: 5px;
+	padding-right: 45px;
+}
+.s_form input:focus{
+	outline: 0;
+}
+.s_form button{
+	position: absolute;
+	background: transparent;
+	border: none;
+	cursor: pointer;
+	top: 15px;
+	right: 0;
+}
+.s_form button:focus{
+	outline: 0;
+}
+.s_form button img{}
+/*news start*/
